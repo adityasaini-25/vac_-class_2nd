@@ -17,12 +17,36 @@
 // console.log(student);
 // console.log(student.name);
 
-const student = {
-    name: "priya",
-    age:21,
-    course : "python"
 
-};
 
-const jsonString = JSON.stringify(student);
-console.log(student);
+
+// const student = {
+//     name: "priya",
+//     age:21,
+//     course : "python"
+
+// };
+
+// const jsonString = JSON.stringify(student);
+// console.log(student);
+
+
+
+
+
+
+
+
+
+// async function loadpost () {
+//     const response = await fetch(
+//         'https://jsonplaceholder.typicode.com/post/1'
+//     );
+
+//     console.log(response.status);
+//     console.log(response.ok);
+
+//     const post =await response.json();
+//     console.log(post.title);
+// }
+// loadpost();
