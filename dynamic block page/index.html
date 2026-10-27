@@ -1,15 +1,17 @@
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dynamic Blog page </title>
+
+    <title>Dynamic Blog Page</title>
+
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
-   
 </head>
 <body>
-    
+
     <header class="header">
         <h1>My Dynamic Blog</h1>
         <p>Welcome to my blog! Here you'll find the latest posts and updates.</p>
@@ -17,17 +19,20 @@
 
     <main class="main-content">
         <section class="controls">
-            <input type="text" id="searchInput" placeholder="Search posts...">
-            <button id = "reloadButton">Reload Posts</button>
+            <input
+                type="text"
+                id="searchInput"
+                placeholder="Search posts..."
+            >
+            <button id="reloadButton">Reload Posts</button>
         </section>
 
-        <p id="status-message" role = "status" aria-live="polite">Loading posts...</p>
+        <p id="status-message" role="status" aria-live="polite">
+            Loading posts...
+        </p>
 
-        <section id ="postsContainer" class="posts-container"></section>
+        <section id="postsContainer" class="posts-container"></section>
     </main>
 
-    <script>
-        // javaScript is loded from script.js in the head.
-    </script>
 </body>
 </html>
