@@ -16,6 +16,8 @@ function Counter() {
         increment
       </button>
 
+      <button onClick={()=> setCount(count - 1)}> decrease</button>
+
         <button onClick={() => setCount(0)}>
           Reset
         </button>
